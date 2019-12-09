@@ -1,0 +1,4 @@
+name: ProjectName
+main: com.example.projectname.ProjectName
+version: 0.0.1
+author: author_name
