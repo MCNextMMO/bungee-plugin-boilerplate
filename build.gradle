@@ -1,4 +1,4 @@
-group 'com.macintoshhelper.mcnextbungee'
+group 'com.example.projectname'
 version '0.0.1-SNAPSHOT'
 
 buildscript {
@@ -35,10 +35,3 @@ dependencies {
     compile 'com.zaxxer:HikariCP:2.4.0' // JDBC connection pool
     compile 'redis.clients:jedis:3.1.0-SNAPSHOT' // Redis
 }
-
-//shadowJar {
-//    dependencies {
-//        include(dependency('redis.clients:jedis:.*'))
-//        include(dependency('com.zaxxer:HikariCP:.*'))
-//    }
-//}
